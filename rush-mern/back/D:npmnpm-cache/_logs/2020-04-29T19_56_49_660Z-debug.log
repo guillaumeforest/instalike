@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@6.14.4
+3 info using node@v12.16.2
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle back@1.0.0~predev: back@1.0.0
+6 info lifecycle back@1.0.0~dev: back@1.0.0
+7 verbose lifecycle back@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle back@1.0.0~dev: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/jean/Rendu/rush-mern/back/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+9 verbose lifecycle back@1.0.0~dev: CWD: /home/jean/Rendu/rush-mern/back
+10 silly lifecycle back@1.0.0~dev: Args: [ '-c', 'nodemon app.js' ]
+11 silly lifecycle back@1.0.0~dev: Returned: code: 1  signal: null
+12 info lifecycle back@1.0.0~dev: Failed to exec dev script
+13 verbose stack Error: back@1.0.0 dev: `nodemon app.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:310:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:310:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+14 verbose pkgid back@1.0.0
+15 verbose cwd /home/jean/Rendu/rush-mern/back
+16 verbose Linux 5.3.0-42-generic
+17 verbose argv "/usr/bin/node" "/usr/local/bin/npm" "run" "dev"
+18 verbose node v12.16.2
+19 verbose npm  v6.14.4
+20 error code ELIFECYCLE
+21 error errno 1
+22 error back@1.0.0 dev: `nodemon app.js`
+22 error Exit status 1
+23 error Failed at the back@1.0.0 dev script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
